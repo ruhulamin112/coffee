@@ -1,0 +1,109 @@
+*{
+margin: 0;
+
+
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body{
+font-family:"Poppins"; 
+color: #333;
+text-transform: capitalize;
+
+}
+
+ /* Hedaer style */
+
+header{
+     margin-top: 20px;
+     margin-left: 50px;
+     margin-right: 50px;
+     display: flex;
+     gap: 40px;
+     align-items: center;
+}
+
+
+nav{
+
+     display: flex;
+     gap: 40px;
+     margin-top: 20px;
+     font-size: 22px;
+      }
+
+
+
+
+a{
+text-decoration: none;
+color: #333;
+
+}
+
+/* section style */
+
+section{
+
+     margin-left: 50px;
+     margin-right: 50px;
+
+
+}
+
+.home-page{
+align-items: center;
+margin-top: 50px;
+display: flex;
+justify-content:space-between ;
+gap: 100px;
+
+}
+
+/* testimonial section */
+
+
+
+
+.testimonial-title{
+
+text-align: center;
+font-size: 35px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.profile{
+
+display: flex;
+gap: 50px;
+}
+.porofile-1,
+.porofile-2,
+.porofile-3{
+
+display: grid;
+justify-items:center ;
+
+}
+
+/* footer section  */
+
+
+footer{
+
+text-align: center;
+ background-color: #4a3e30;
+ color:white;
+padding: 50px;
+margin-top: 50px;
+}
+
+.table{
+
+display: flex;
+justify-content: center;
+}
